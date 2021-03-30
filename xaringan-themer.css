@@ -21,6 +21,7 @@
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i&display=swap);
 @import url(https://fonts.googleapis.com/css?family=Cabin:600,600i&display=swap);
 @import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700&display=swap);
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 
 :root {
@@ -108,7 +109,7 @@ h1, h2, h3 {
 strong { color: var(--text-bold-color); }
 a, a > code {
   color: var(--link-color);
-  text-decoration: none;
+  text-decoration: underline;
 }
 .footnote {
   position: absolute;
@@ -252,7 +253,134 @@ table.dataTable.hover tbody tr:hover, table.dataTable.display tbody tr:hover {
   background-color: var(--black);
 }
 
-.bigger{
+.twentyx{
+  font-size: 20em;
+  color: #041E42;
+}
+
+.threex{
   font-size: 3rem;
 }
 
+.twox{
+   font-size: 2rem;
+}
+
+.full-page-fig h1 {
+  display: none;
+  }
+
+
+.no-header h1{
+  display: none;
+}
+
+
+
+.question {
+  font-size: 400px;
+  font-family: 'Pacifico';
+}
+
+.question.remark-slide-number {
+  display: none;
+}
+
+/* I actually think you can just display NOTHING AT ALL 
+but recall that this is how I had it working before; by just ignoring the top-level 
+header ....
+.full-page-fig h1 {
+  display: none;
+  }
+*/
+
+
+
+/* .full-page-fig.remark-slide-scaler div {
+  width: 95%;
+  background-color: blue;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  transform: scale(0.95); 
+  left: 0px; 
+  top: 0px;
+} */
+
+ /* div.remark-slide-scaler.full-page-fig {
+  width: 95%;
+  background-color: blue;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  transform: scale(1); 
+  left: 0px; 
+  top: 0px;
+} */
+
+
+
+.manual-title{
+  background-color: var(--title-slide-background-color);
+  color: var(--title-slide-text-color);
+  }
+  
+.manual-title h1, .manual-title h2, .manual-title h3 {
+  color: var(--title-slide-text-color);
+}
+
+.title-logo-left img {
+  position: fixed;
+  top: 75%;
+  height: 100px;
+  border-radius: 5%;
+  padding: 10px;
+  background-color: white;
+}
+
+.baseball-right img {
+  position: fixed;
+  left: 60%;
+  top: 50%;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.title-slide .remark-slide-number {
+  display: none;
+}
+
+.text-to-bottom {
+  position: fixed;
+  top: 75% ;
+}
+
+.friendly {
+  display: inline-block;
+}
+
+.friendly img {
+  position: fixed;
+  display: inline-block;
+  transform: scale(0.4); 
+  left:60%; 
+  }
+  
+.header-at-right h1 {
+  float: right;
+ }
+
+.remark-slide-content.book-image img {
+  
+  display: block;
+  height: 400px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.remark-slide-content.book-image a {
+  display: block;
+  text-align: center;
+  }

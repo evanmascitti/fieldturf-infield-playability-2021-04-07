@@ -1,0 +1,17 @@
+class: book-img
+# For further reference
+
+.pull-left[
+<a href="https://www.goodreads.com/book/show/26599296-the-physics-of-ball-games">
+<img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1442472021l/26599296._SX318_.jpg">
+</a>
+[Daish, 1972 - The Physics of Ball Games](https://www.goodreads.com/book/show/26599296-the-physics-of-ball-games)
+]
+
+.pull-right[
+<a href="https://sportsfieldmanagementonline.com/2021/03/15/dissecting-infield-playability/12504">
+<img src="https://content.cdntwrk.com/files/aT0xMzAyMjU5JnA9MCZ2ZXJzaW9uPTEmY21kPXYmc2lnPTIxMzY2ZDA2YWZiOTFlNTdhZmRhNjY2OGVlY2ZkYzEw/-w-300.jpg">
+</a>
+
+[SportsField Managment - March 2021](https://sportsfieldmanagementonline.com/2021/03/15/dissecting-infield-playability/12504/)
+]

@@ -11,25 +11,24 @@ output:
     css: xaringan-themer.css
     seal: false
 ---
-class: manual-title, middle
+class: manual-title, middle, title-slide-link
 name: title
 # Dissecting infield playability 
 
-## Evan C. Mascitti
+### Evan C. Mascitti
 
-[PSU Center for Sports Surface Research](https://plantscience.psu.edu/research/centers/ssrc)
-[evan-soil.io](https://www.evan-soil.io)
+### [PSU Center for Sports Surface Research](https://plantscience.psu.edu/research/centers/ssrc)
 
-### 7 April, 2021
+### [www.evan-soil.io](https://www.evan-soil.io)
 
-<br>
+#### 7 April, 2021
 
-<div class="baseball-right">
+<div class="baseball">
 <img src="https://drive.google.com/uc?id=1lKrIWe3QaotbHZ0eJSC57UNf2mJTRAoh">
 </div>
 
-<div class="title-logo-left" style="background-color: white;">
-<a href="https://news.psu.edu/sites/default/files/styles/news_featured_large/public/College%20mark%20-%20stacked.jpg"><img src="https://i1.wp.com/springvalleyag.com/wp-content/uploads/2017/12/psu-agsciences-logo.png?resize=666%2C374&ssl=1"></a>
+<div class="logo-right">
+<img src="https://drive.google.com/uc?id=1D9vCWG5hwmPL6n_WN9Hcu3X7JElyDf72">
 </div>
 
 
@@ -53,7 +52,7 @@ background-size: contain
 # The last hop
 
 .center.middle[
-<iframe width="880" height="410"src="https://www.youtube.com/embed/S67zqwz05ys?start=68&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="880" height="410" src="https://www.youtube.com/embed/S67zqwz05ys?start=68&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ]
 
 ---
@@ -77,15 +76,13 @@ layout:true
 Adapted from [Daish, 1972 - The Physics of Ball Games](https://www.goodreads.com/book/show/26599296-the-physics-of-ball-games)
 
 ---
+layout: false
+class: no-header, center, middle
 
-.center.middle[
-<video width="900"  controls>
-    <source src="https://r3---sn-p5qs7nsr.c.drive.google.com/videoplayback?expire=1617090352&ei=8J5iYNv5CtLhhwazi5v4DA&ip=128.118.136.212&cp=QVRGWUFfT1NTQ1hPOkNKYjJKUjJBNkhZOWFYUmhra01lMkpqUG5Gd1dKaXZMOTdFTm5nRzdZbzE&id=2e8bef89eb61d3cc&itag=22&source=webdrive&requiressl=yes&mh=1q&mm=32&mn=sn-p5qs7nsr&ms=su&mv=u&mvi=3&pl=21&ttl=transient&susc=dr&driveid=19Q5wU5tzu3h5meZFMA1UajBOsjt_Aa6S&app=explorer&mime=video/mp4&vprv=1&prv=1&dur=8.684&lmt=1617075736390476&mt=1617075200&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,vprv,prv,dur,lmt&sig=AOq0QJ8wRAIgWiQ4Gi0i4FnxTCRyxaBHaiEFW3F47-L-BgNNCuCmvo0CIDADyVlcVAVEbEjwWYW0z14S9UuVzBpoGyFgaznDPe2_&lsparams=mh,mm,mn,ms,mv,mvi,pl&lsig=AG3C_xAwRAIgCGyZJ6NTOzl1s01V7qdn9s_QN0W-WTAwtGBSINc3OcICIF2akqu_J_bvRGBp5DJuAhgdu9mdBL1Nb7XK_btUTcsr&cpn=-cllDpg20fR5xF5u&c=WEB_EMBEDDED_PLAYER&cver=1.20210322.1.0" type="video/mp4" />
-  </video>
-  ]
+<iframe src="https://player.vimeo.com/video/531414292" width="1000" height="563" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
 ---
-layout: false
+
 # The only math in this talk !
 
 

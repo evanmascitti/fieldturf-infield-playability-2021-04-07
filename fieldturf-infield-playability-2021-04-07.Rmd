@@ -34,7 +34,8 @@ name: title
 
 ```{r setup, echo=F}
 knitr::opts_chunk$set(echo = F, warning = F, message = F, dev = 'svglite')
-xaringanExtra::use_xaringan_extra(c("tile_view", "panelset", "scribble", "share_again"))
+
+#xaringanExtra::use_xaringan_extra(c("tile_view", "panelset", "scribble", "share_again"))
 
 # imgs <- readr::read_rds('google-drive-image-refs.rds')
 
@@ -82,22 +83,41 @@ class: no-header, center, middle
 <iframe src="https://player.vimeo.com/video/531414292" width="1000" height="563" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 
 ---
-
+layout: true
 # The only math in this talk !
 
+---
 
 .middle.center.pull-left.threex[
 ## Energy
 $$\mathrm{E=mv^2}$$
+```{r out.width="40%"}
+knitr::include_graphics("https://drive.google.com/uc?id=13Uxo0glNMxkwzSCUhn-NkgFxWWAb6Dd3")
+```
+
+
 ]
 
 .middle.center.pull-right.threex[
 ## Friction
 $$\mathrm{f=\mu \cdot N}$$
+```{r out.width="50%"}
+knitr::include_graphics("https://drive.google.com/uc?id=13E4JwZWoTvI2hvnCop2rJkZW81iGEyVw")
+```
+
 ]
 
 --
 
+center.pull-left[
+### Energy 
+$\mathrm{E=mv^2}$
+]
+
+center.pull-right.threex[
+### Friction
+$$\mathrm{f=\mu \cdot N}$$
+]
 .twox.center[
 ### Translation:
 - velocity > mass
@@ -105,11 +125,40 @@ $$\mathrm{f=\mu \cdot N}$$
 ]
 
 ---
-
+layout:false
 # Ball-to-surface interaction
 
-.center[<span style="font-size:1.25em;">Time ~ 5 ms</span>]
+.center[<span style="font-size:1.25em;">Time ~ 10 ms</span>]
 ![](https://drive.google.com/uc?id=1GK4XzyTv-ZpfYaxbtCIrVdczoho7r_AK)
+
+---
+layout:true
+# Hardness 
+
+---
+
+.pull-left[
+```{r gmax-img, out.width="70%", fig.align='center'}
+knitr::include_graphics('https://drive.google.com/uc?id=132b6M6GCYLlfDb8lULLBoP6dLtdnPDcI')
+```
+]
+
+.pull-right[
+- max acceleration experienced  &#8594;  $F=ma$
+
+- c.f. time to $Gmax$ and SI/HIC
+]
+
+
+---
+
+.center[
+
+.middle[
+<iframe width="880" height="410" src="https://www.youtube.com/embed/SSod7rI0syg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+]
+]
 
 ---
 class: full-page-fig

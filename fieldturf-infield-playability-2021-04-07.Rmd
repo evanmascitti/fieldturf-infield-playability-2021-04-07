@@ -166,6 +166,7 @@ background-image: url(https://drive.google.com/uc?id=1cdUcr0c9GJBDPirJK9lZvQWnIm
 # Hardness 
 
 ---
+layout: false
 class: book-image
 # For further reference 
 

@@ -61,7 +61,7 @@ class: bg-road
 
 ---
 
-# The last hop
+# Consistency - the last hop
 
 .center.middle[
 <iframe width="880" height="410" src="https://www.youtube.com/embed/S67zqwz05ys?start=66&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -72,6 +72,33 @@ class: full-page-fig
 background-image: url(https://drive.google.com/uc?id=1g_al0Boo7wutOyRVUZSpBMbAGjyZX9fx)
 background-size: contain
 # Corkboard
+
+---
+
+# What _is_ speed?
+
+<div class="summation">
+<p>pace +</p>
+<p>bounce +<p/>
+<p>spin</p>
+<hr>
+<p><strong>&#61; perception</strong></p>
+</div>
+
+---
+# Pace
+
+<br>
+
+.center[.middle[.threex[
+$$\mathrm{COR = \frac{incoming ~ velocity}{outgoing ~ velocity}}$$
+]
+]
+]
+---
+background-image: url(https://drive.google.com/uc?id=1FUv2-DV6I5bWI0xz5_PJgufMQIAjORes)
+background-size: contain
+# Bounce 
 
 ---
 layout:true
@@ -204,4 +231,3 @@ class: no-header, center, middle
 # Questions
 
 .twentyx[?]
-

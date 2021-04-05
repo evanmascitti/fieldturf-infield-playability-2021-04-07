@@ -435,3 +435,18 @@ ul {
   list-style-type: "\1F816";
   
 }
+
+.summation {
+  text-align: left;
+  position: fixed;
+  left: 40%;
+  font-size: 2rem;
+}
+
+.summation hr {
+ height:2px;
+ border-width:0;
+ color:gray;
+ background-color:gray
+  
+}

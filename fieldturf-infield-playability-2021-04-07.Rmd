@@ -47,13 +47,13 @@ background-image: url(https://drive.google.com/uc?id=1CogUjvnfByj2bDPj3SO6Jnpp4U
 background-size: contain
 # Concentration of play
 
-
 ---
+
 
 # The last hop
 
 .center.middle[
-<iframe width="880" height="410" src="https://www.youtube.com/embed/S67zqwz05ys?start=68&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="880" height="410" src="https://www.youtube.com/embed/S67zqwz05ys?start=66&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ]
 
 ---
@@ -91,7 +91,7 @@ layout: true
 .middle.center.pull-left.threex[
 ## Energy
 $$\mathrm{E=mv^2}$$
-```{r out.width="40%"}
+```{r out.width="35%"}
 knitr::include_graphics("https://drive.google.com/uc?id=13Uxo0glNMxkwzSCUhn-NkgFxWWAb6Dd3")
 ```
 
@@ -101,24 +101,15 @@ knitr::include_graphics("https://drive.google.com/uc?id=13Uxo0glNMxkwzSCUhn-NkgF
 .middle.center.pull-right.threex[
 ## Friction
 $$\mathrm{f=\mu \cdot N}$$
-```{r out.width="50%"}
+```{r out.width="40%"}
 knitr::include_graphics("https://drive.google.com/uc?id=13E4JwZWoTvI2hvnCop2rJkZW81iGEyVw")
 ```
 
 ]
 
---
 
-center.pull-left[
-### Energy 
-$\mathrm{E=mv^2}$
-]
+???
 
-center.pull-right.threex[
-### Friction
-$$\mathrm{f=\mu \cdot N}$$
-]
-.twox.center[
 ### Translation:
 - velocity > mass
 - &#x23f0; for friction
@@ -167,6 +158,19 @@ background-image: url(https://drive.google.com/uc?id=1cdUcr0c9GJBDPirJK9lZvQWnIm
 
 ---
 layout: false
+class: bg-road
+# Summary
+
+### &rarr; Consistency 
+
+
+### &rarr; Pace + bounce + spin = "speed"
+
+
+### &rarr; Hardness
+
+---
+
 class: book-image
 # For further reference 
 

@@ -266,6 +266,10 @@ table.dataTable.hover tbody tr:hover, table.dataTable.display tbody tr:hover {
    font-size: 2rem;
 }
 
+.bg-road.twox.remark-slide-number {
+  font-size: inherit;
+}
+
 .full-page-fig h1 {
   display: none;
   }
@@ -407,4 +411,27 @@ header ....
 
 .title-slide-link a {
   color: white;
+}
+
+.bg-road {
+  position: relative;
+  z-index: 1;
+}
+
+.bg-road::before {    
+      content: "";
+      background-image: url('https://drive.google.com/uc?id=1hFX3lZCMW5kAI1y1E577UpdmSvo8wyoF');
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.25;
+      z-index: -1;
+}
+
+ul {
+  list-style-type: "\1F816";
+  
 }

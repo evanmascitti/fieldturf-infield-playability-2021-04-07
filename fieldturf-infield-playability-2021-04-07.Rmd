@@ -19,7 +19,7 @@ name: title
 
 ### [PSU Center for Sports Surface Research](https://plantscience.psu.edu/research/centers/ssrc)
 
-### [www.evan-soil.io](https://www.evan-soil.io)
+### [evan-soil.io](https://www.evan-soil.io)
 
 #### 7 April, 2021
 
@@ -35,7 +35,7 @@ name: title
 ```{r setup, echo=F}
 knitr::opts_chunk$set(echo = F, warning = F, message = F, dev = 'svglite')
 
-#xaringanExtra::use_xaringan_extra(c("tile_view", "panelset", "scribble", "share_again"))
+xaringanExtra::use_xaringan_extra(c("tile_view", "panelset", "scribble", "share_again"))
 
 # imgs <- readr::read_rds('google-drive-image-refs.rds')
 
@@ -48,7 +48,18 @@ background-size: contain
 # Concentration of play
 
 ---
+class: bg-road
+# Road map
 
+### &rarr; Consistency 
+
+
+### &rarr; Pace + bounce + spin = "speed"
+
+
+### &rarr; Hardness
+
+---
 
 # The last hop
 

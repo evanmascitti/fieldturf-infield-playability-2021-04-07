@@ -126,22 +126,24 @@ layout: true
 
 ---
 
+
 .middle.center.pull-left.threex[
-## Energy
-$$\mathrm{E=mv^2}$$
-```{r out.width="35%"}
-knitr::include_graphics("https://drive.google.com/uc?id=13Uxo0glNMxkwzSCUhn-NkgFxWWAb6Dd3")
-```
-
-
-]
-
-.middle.center.pull-right.threex[
 ## Friction
 $$\mathrm{f=\mu \cdot N}$$
 ```{r out.width="40%"}
 knitr::include_graphics("https://drive.google.com/uc?id=13E4JwZWoTvI2hvnCop2rJkZW81iGEyVw")
 ```
+
+]
+
+
+.middle.center.pull-right.threex[
+## Energy
+$$\mathrm{E_k=mv^2}$$
+```{r out.width="35%"}
+knitr::include_graphics("https://drive.google.com/uc?id=13Uxo0glNMxkwzSCUhn-NkgFxWWAb6Dd3")
+```
+
 
 ]
 
